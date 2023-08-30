@@ -55,21 +55,18 @@ Option 2:With Docker
 The date field should be formatted using the ISO 8601 date format with time zone information:
       ```bash
       "date": "2023-08-30T00:00:00Z"
-      ```
 
 2. Start Time Format
 The start_time field should also be formatted in ISO 8601 format, including the time zone:
       ```bash
       "start_time": "2023-08-30T16:00:00Z"
-      ```
 
 3. End Time Format
 Similarly, the end_time field should follow the ISO 8601 format:
 
       ```bash
       "end_time": "2023-08-30T17:30:00Z" 
-      ```
-       
+       ```
 
 ##  Usage
 Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
