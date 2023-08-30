@@ -40,7 +40,20 @@ Option 2:With Docker
     docker run -p 8080:8080 bytive-task
 
 
-## Usage
+# JSON Request Format
+When sending JSON requests to create or update project information, ensure that you follow the specified format for the date, start_time, and end_time fields. These fields use the ISO 8601 format, which includes both date and time information.
+
+## Date Format
+The date field should be formatted using the ISO 8601 date format with time zone information:
+
+
+  ```bash
+  "date": "2023-08-30T00:00:00Z"
+  "start_time": "2023-08-30T16:00:00Z"
+  "end_time": "2023-08-30T17:30:00Z"
+
+
+# Usage
 
 Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
 
