@@ -17,26 +17,42 @@ Before you begin, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/mdNoman21/bytive-task.git
-# Navigate to the project directory: 
+2. Navigate to the project directory: 
+   ```bash
    cd bytive-task
-# Running the application 
+   
+### Running the application 
 
-# Option 1:Without Docker 
-#  Install project Dependencies 
+Option 1:Without Docker 
+
+1. Install project Dependencies
+   ```bash 
    go mod download
-#  Build and run the application
+2. Build and run the application
+   ```bash
    go run main.go
-# The application will be available at http://localhost:8080
 
+### The application will be available at http://localhost:8080
 
-
-# Option 2:With Docker
-#  Build the docker image
-    docker build -t bytive-task .
-# Run a Docker container from the image:
+Option 2:With Docker
+1.  Build the docker image
+   ```bash 
+    docker build -t bytive-task 
+2.  Run a Docker container from the image:
+   ```bash 
     docker run -p 8080:8080 bytive-task
-# The application will be available at http://localhost:8080
 
+### The application will be available at http://localhost:8080
+
+
+## Usage
+- Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
+
+- Create a Project: POST /createProject
+- Get All Projects: GET /getProjects
+- Get a Project by ID: GET /getProject/:id
+- Update All Project End Times: PUT /updateEndTimeAll?timeToAdd={timeToAdd}
+- Delete a Project: DELETE /deleteProject/:id
 
 
 

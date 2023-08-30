@@ -11,6 +11,6 @@ func UserRoutes(incomingRoutes *gin.Engine) {
 	incomingRoutes.GET("/getProjects", controllers.GetProjects())
 	incomingRoutes.GET("/getProject/:id", controllers.GetProject())
 	incomingRoutes.DELETE("/deleteProject/:id", controllers.DeleteProject())
-	incomingRoutes.PATCH("/updateTime", controllers.UpdateAllProjects())
+	incomingRoutes.PATCH("/updateEndTimeAll", controllers.UpdateAllProjects())
 
 }
