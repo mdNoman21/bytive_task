@@ -15,12 +15,12 @@ Before you begin, make sure you have the following installed:
 
 1. Clone the repository to your local machine:
 
-   ```bash
+   ```
    git clone https://github.com/mdNoman21/bytive-task.git
    ```
 
 2. Navigate to the project directory: 
-   ```bash
+   ```
    cd bytive-task
    ```
 
@@ -30,12 +30,12 @@ Before you begin, make sure you have the following installed:
 Option 1:Without Docker 
 
 1. Install project Dependencies
-   ```bash 
+   ```
    go mod download
    ```
 
 2. Build and run the application
-   ```bash
+   ```
    go run main.go
     ```
 
@@ -43,9 +43,11 @@ Option 1:Without Docker
 
 Option 2:With Docker
 1.  Build the docker image and run a Docker container from the image
-   ```bash 
+   ```
     docker build -t bytive-task 
     docker run -p 8080:8080 bytive-task
+   ```
+
 
 
 ### JSON Request Format
@@ -53,22 +55,24 @@ Option 2:With Docker
 
 1. Date Format
 The date field should be formatted using the ISO 8601 date format with time zone information:
-      ```bash
+      ```
       "date": "2023-08-30T00:00:00Z"
+      ```
 
 2. Start Time Format
 The start_time field should also be formatted in ISO 8601 format, including the time zone:
-      ```bash
+      ```
       "start_time": "2023-08-30T16:00:00Z"
+      ```
 
 3. End Time Format
 Similarly, the end_time field should follow the ISO 8601 format:
 
-      ```bash
+      ```
       "end_time": "2023-08-30T17:30:00Z" 
        ```
 
-##  Usage
+### Usage
 Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
 
 Create a Project: POST /createProject
