@@ -34,11 +34,9 @@ Option 1:Without Docker
 
 
 Option 2:With Docker
-1.  Build the docker image
+1.  Build the docker image and run a Docker container from the image
    ```bash 
     docker build -t bytive-task 
-2.  Run a Docker container from the image:
-   ```bash 
     docker run -p 8080:8080 bytive-task
 
 ### Usage
