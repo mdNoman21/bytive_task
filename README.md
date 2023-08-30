@@ -23,7 +23,7 @@ Before you begin, make sure you have the following installed:
    
 ### Running the application 
 
-Option 1:Without Docker 
+1. Option 1:Without Docker 
 
 1. Install project Dependencies
    ```bash 
@@ -33,7 +33,7 @@ Option 1:Without Docker
    go run main.go
 
 
-Option 2:With Docker
+2. Option 2:With Docker
 1.  Build the docker image and run a Docker container from the image
    ```bash 
     docker build -t bytive-task 
