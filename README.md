@@ -70,14 +70,20 @@ Similarly, the end_time field should follow the ISO 8601 format:
 
       ```
       "end_time": "2023-08-30T17:30:00Z" 
-       ```
+       
 
 ### Usage
 Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
 
-Create a Project: POST /createProject
-Get All Projects: GET /getProjects
-Get a Project by ID: GET /getProject/:id
-Update All Project End Times: PUT /updateEndTimeAll?timeToAdd={timeToAdd}
-Delete a Project: DELETE /deleteProject/:id
+- Create a Project: POST /createProject
+
+- Get All Projects: GET /getProjects
+
+- Get a Project by ID: GET /getProject/:id
+
+- Update All Project End Times: PUT /updateEndTimeAll?timeToAdd={timeToAdd}
+
+- Delete a Project: DELETE /deleteProject/:id
+
+
 The application will be available at http://localhost:8080
