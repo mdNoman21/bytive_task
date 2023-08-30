@@ -81,7 +81,7 @@ Once the application is up and running, you can interact with it using APIs. Her
 
 - Get a Project by ID: GET /getProject/:id
 
-- Update All Project End Times: PUT /updateEndTimeAll?timeToAdd={timeToAdd}
+- Update All Project End Times: PATCH /updateEndTimeAll?timeToAdd={timeToAdd}
 
 - Delete a Project: DELETE /deleteProject/:id
 
