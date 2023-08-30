@@ -41,10 +41,7 @@ Option 2:With Docker
    ```bash 
     docker run -p 8080:8080 bytive-task
 
-### The application will be available at http://localhost:8080
-
-
-## Usage
+### Usage
 - Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
 
 - Create a Project: POST /createProject
@@ -54,6 +51,7 @@ Option 2:With Docker
 - Delete a Project: DELETE /deleteProject/:id
 
 
+### The application will be available at http://localhost:8080
 
 
 
