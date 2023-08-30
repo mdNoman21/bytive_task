@@ -32,7 +32,6 @@ Option 1:Without Docker
    ```bash
    go run main.go
 
-### The application will be available at http://localhost:8080
 
 Option 2:With Docker
 1.  Build the docker image
