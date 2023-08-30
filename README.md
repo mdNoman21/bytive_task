@@ -38,8 +38,9 @@ Option 2:With Docker
    ```bash 
     docker build -t bytive-task 
     docker run -p 8080:8080 bytive-task
-
-## Usage
+    
+---
+ Usage
 - Once the application is up and running, you can interact with it using APIs. Here are some of the available endpoints:
 
 - Create a Project: POST /createProject
