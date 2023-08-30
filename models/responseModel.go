@@ -24,6 +24,7 @@ type ProjectInfo struct {
 
 type CustomDate struct {
 	time.Time
+	DateStr string `json:"date" form:"date"`
 }
 
 const customDateFormat = "2006-01-02"
@@ -34,6 +35,7 @@ func (cd *CustomDate) UnmarshalText(data []byte) error {
 		return err
 	}
 	cd.Time = t
+	cd.DateStr = string(data)
 	return nil
 }
 
@@ -43,6 +45,7 @@ func (cd CustomDate) MarshalText() ([]byte, error) {
 
 type CustomTime struct {
 	time.Time
+	TimeStr string `json:"time" form:"time"`
 }
 
 const customTimeFormat = "3:04pm"
@@ -53,6 +56,7 @@ func (ct *CustomTime) UnmarshalText(data []byte) error {
 		return err
 	}
 	ct.Time = t
+	ct.TimeStr = string(data)
 	return nil
 }
 
