@@ -46,8 +46,6 @@ Option 2:With Docker
    ```bash 
     docker build -t bytive-task 
     docker run -p 8080:8080 bytive-task
-      ```
-
 
 
 ### JSON Request Format
