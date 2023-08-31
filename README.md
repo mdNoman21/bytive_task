@@ -44,8 +44,8 @@ Option 1:Without Docker
 Option 2:With Docker
 1.  Build the docker image and run a Docker container from the image
    ```
-    docker build -t bytive-task 
-    docker run -p 8080:8080 bytive-task
+    docker build -t bytive . 
+    docker run -it -p 8080:8080 bytive
    ```
 
 
