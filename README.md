@@ -27,7 +27,7 @@ Before you begin, make sure you have the following installed:
    
 ### Running the application 
 
-Option 1:Without Docker 
+Option 1:Without Docker(recommended) 
 
 1. Install project Dependencies
    ```
